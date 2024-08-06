@@ -2,13 +2,14 @@ import logo from './logo.svg';
 import './App.css';
 import Firstfile from './Components/basics/FirstFunction';
 import Firstclass from './Components/basics/Firstclass';
-
 import Myform from './Components/basics/Myform';
 import RandomNumber from './Components/basics/Game/RandomNumber';
 import StopWatch from './Components/basics/Timer/StopWatch';
 import Indexrouter from './Components/basics/Router/Indexrouter';
 import Apilist from './Components/basics/Apicalls/Apilist';
 import Signin  from './Components/basics/Logintest/Signin';
+import Dhudproj1 from './Components/basics/Dhuddu/challenge1/Dhudproj1';
+import Dhudproj2 from './Components/basics/Dhuddu/challenge2/Dhudproj2';
 function App() {
   const company = 'ford';
   const all = `im a ${company} company`;
@@ -37,7 +38,9 @@ function App() {
    {/* <RandomNumber /> */}
    {/* <StopWatch /> */}
    {/* <Indexrouter /> */}
-   <Signin />
+   {/* <Signin />
+   <Dhudproj1/> */}
+   <Dhudproj2/>
    {/* <Apilist /> */}
     </div>
   );

@@ -46,7 +46,7 @@ const openeditmodal= (item) => {
     setnewemails(item.email);
     console.log("item checked..", item);
 }
-const closeModal = () => {
+const closeModal = () => { 
     setisModalOpen(false)    
 }
 const updateItem = (e) => {
