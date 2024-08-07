@@ -1,13 +1,5 @@
-const ButtonComponent = ({handlebuttonData}) => {
-    const clickedone = (e) => {
-            console.log("buttoncompinent e,", e.target.value)
-    }
-    return(
-    <div>
-    <button onClick={clickedone}>Users</button>
-    <button  onClick={clickedone}>Posts</button>
-    <button  onClick={clickedone}>Comments</button>
-    </div>)
+const ButtonComponent = ({buttonText, text, settext}) => {
+return(<button className={text == buttonText ? "bgcolor" : null} onClick={() => settext(buttonText)}>{buttonText}</button>)
 }
 
 export default ButtonComponent;
